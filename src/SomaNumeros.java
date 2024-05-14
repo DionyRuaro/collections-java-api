@@ -21,13 +21,6 @@ public class SomaNumeros {
         System.out.println(numeros);
     }
 
-        @Override
-    public String toString() {
-        return "SomaNumeros{" +
-                "numeros=" + numeros +
-                '}';
-    }
-
     public Integer calcularSoma(){
         Integer total = 0;
         for (Integer num : numeros) {
